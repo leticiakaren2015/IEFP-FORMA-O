@@ -14,9 +14,6 @@ int main(){
         printf("Digite o primeiro número: ");
         scanf("%f", &numero1);
 
-        printf("Digite o segundo número: ");
-        scanf("%f", &numero2);
-
         printf("Opção[1] para Soma\n"
                 "Opção[2] para Subtração\n"
                 "Opção[3] para multiplicação\n"
@@ -24,6 +21,9 @@ int main(){
 
         printf("Digite sua opção: ");
         scanf(" %c", &opcao);
+
+        printf("Digite o segundo número: ");
+        scanf("%f", &numero2);
 
 
         switch (opcao)
@@ -55,4 +55,5 @@ int main(){
 
     printf("Fim do Programa...");
 
+    return 0;
 }
