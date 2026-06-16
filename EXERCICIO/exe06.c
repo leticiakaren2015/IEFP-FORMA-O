@@ -1,3 +1,5 @@
+//Lê um número inteiro e mostre sua tabuada de 1 até 10.
+
 #include <stdio.h>
 
 int main(){
