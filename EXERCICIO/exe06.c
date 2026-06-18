@@ -9,8 +9,9 @@ int main(){
     printf("Digite um número: ");
     scanf("%d", &num);
 
-    for(int i = 0; i < 11; i++){
+    for(int i = 1; i < 11; i++){
         printf("%d x %d = %d \n", num, i, (num*i));
     }
+    printf("FIM DO PROGRAMA!");
     return 0;
 }

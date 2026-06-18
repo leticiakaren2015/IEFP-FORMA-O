@@ -1,10 +1,11 @@
-//Mostre todos os múltiplos de 3 entre 1 e 100.
+//Mostre todos os múltiplos de 3 entre 1 e 100. 
 
 #include<stdio.h>
 
 int main(){
-    for(int i = 0; i < 101; i+= 3){
+    for(int i = 0; i < 101; i+=3){
         printf("%d ",i);
     }
+    printf("\nFIM DO PROGRAMA!");
     return 0;
 }
