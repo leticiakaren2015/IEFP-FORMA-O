@@ -20,7 +20,7 @@ struct Pessoa
 
 int main(){
 
-    struct  Pessoa p1={15, 1.56, 76.5};
+    struct  Pessoa p1;
     float imc;
 
     printf("Digite sua idade: ");
