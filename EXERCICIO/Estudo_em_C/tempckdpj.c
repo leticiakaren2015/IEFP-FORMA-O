@@ -1,5 +1,5 @@
 #include <stdio.h>
-# define TAM 3
+# define TAM 10
 
 int main() {
     // Create a program that reads the grades od 10 students into an array
@@ -18,4 +18,3 @@ int main() {
     
     
     return 0;
-}
